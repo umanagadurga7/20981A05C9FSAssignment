@@ -37,7 +37,7 @@ class Car{
         this.year=year
     }
     displayInfo():(string|number){
-        return "make: "+this.make+" model: "+this.model+" year: "+this.year
+        return "make: "+this.make+", model: "+this.model+", year: "+this.year
     }
 }
 let obj=new Car('toyota','v3','2020')
